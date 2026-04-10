@@ -859,8 +859,9 @@ body {
 }
 
 .contact-wrapper {
+    text-align: center;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 4rem;
     max-width: 1000px;
     margin: 0 auto;
@@ -933,9 +934,6 @@ body {
 }
 
 .contact-item {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
     margin-bottom: 1rem;
     font-size: 1.1rem;
 }
